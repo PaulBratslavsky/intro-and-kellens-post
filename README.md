@@ -6,11 +6,20 @@
 
 Today we will look at how to set the default  "populate" options via route middleware.
 
-Instead of passing it from our frontend, we can handle this functionality via route middle.
+Instead of passing "populate" on each request from our frontend, we can handle this functionality via route-based middleware in the backend.
 
 This will allow us to keep our frontend requests lean and organized.
 
-### What is route middleware?
+You can also use this to control what data will be sent back by default and not allow the user to add additional populate options in the frontend.
+
+
+### What is route middleware?  
+
+In Strapi, route middleware has a more limited scope and is configured and used as middleware at the route level. 
+
+You can learn more [here](https://docs.strapi.io/developer-docs/latest/development/backend-customization/routes.html#policies): 
+
+Let's jump in and learn how you can set this up.
 
 ## Example content structure:
 
