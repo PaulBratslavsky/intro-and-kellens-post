@@ -2,6 +2,14 @@
 
 # _Route-based middleware to handle default population query logic_
 
+## The plan:
+
+Today we will look at how to set the default  "populate" options via route middleware.
+
+Instead of passing it from our frontend, we can handle this functionality via route middle.
+
+This will allow us to keep our frontend requests lean and organized.
+
 ## Example content structure:
 
 > For this example, I will use a simple blog post type consisting of a **title, body, hero image, slug and authors**, which is a one-to-many relationship with a user. _Each blog post can have many authors_.
