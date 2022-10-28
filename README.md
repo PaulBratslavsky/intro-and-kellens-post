@@ -10,8 +10,6 @@
 
 Before getting into how to implement custom middleware, let's look at why you might want to add middleware for this use case in the first place.
 
-> Prefer video? [Watch here](https://www.loom.com/share/9f443a97c8b343b5b0a194f05e070d94)
-
 ---
 
 ## The problem:
