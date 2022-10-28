@@ -10,6 +10,8 @@ Instead of passing it from our frontend, we can handle this functionality via ro
 
 This will allow us to keep our frontend requests lean and organized.
 
+### What is route middleware?
+
 ## Example content structure:
 
 > For this example, I will use a simple blog post type consisting of a **title, body, hero image, slug and authors**, which is a one-to-many relationship with a user. _Each blog post can have many authors_.
